@@ -1,0 +1,18 @@
+** 우선 nodejs부터 깔아주세요.
+PC다운: https://nodejs.org/ko/ LTS로
+termux다운: pkg install nodejs
+
+!!컴퓨터 환경에서 실행할것을 권장합니다!!
+폰도 되긴 하는데 좀 귀찮아요
+install.bat 실행해서 npm 모듈 설치 해주시구
+uuid.bat 실행해서 나오는 UUID 복사 해주시구
+
+account.json에 카카오계정 이메일(또는 전화번호), 비번, UUID, 아이피로거 링크 입력하기
+
+컴퓨터는 Loco-start.bat 켜주면 되고
+
+폰은 termux 키고 nodejs 설치후 cd 폴더경로 쳐서 폴더로 이동하고 node loco 입력해주면 켜집니다
+
+그러면 account.json에 입력했던 카카오계정으로 인증요청 날라오는데 cmd에 입력하면 초기세팅은 끝납니다.
+
+.인증치고 cmd에 나오는 코드를 채팅방에 입력해주시면 사용이 가능합니다.
